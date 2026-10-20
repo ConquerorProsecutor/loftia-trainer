@@ -1,0 +1,8 @@
+process_name = "Loftia.exe"
+hotkeys_enabled = true
+log_level = "INFO"
+
+[overlay]
+theme = "dark"
+opacity = 0.85
+font_size = 14
