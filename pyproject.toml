@@ -1,0 +1,16 @@
+[project]
+name = "loftia-trainer"
+version = "1.4.2"
+description = "Loftia Trainer — memory-driven trainer for the Loftia desktop client"
+requires-python = ">=3.11"
+dependencies = ["pymem==1.13.1", "keyboard==0.13.5"]
+
+[project.scripts]
+loftia-trainer = "loftia_trainer.bootstrap:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["loftia_trainer*"]
